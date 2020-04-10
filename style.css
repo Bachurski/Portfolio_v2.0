@@ -136,13 +136,13 @@ body {
     flex-wrap: wrap;
     margin: 0 20vw;
     flex-basis: 45%;
+    transition: 1s linear;
 }
 
 .containerDiv:nth-child(odd) {
     flex-direction: row-reverse;
     position: relative;
     left: 2000px;
-    overflow: hidden;
 }
 
 .containerDiv:nth-child(even) {
