@@ -96,37 +96,30 @@ const activeProjekt = 0;
 const divyProjekt = document.body.querySelector(".projekty");
 const showBoxProjekt = () => {
     if (window.pageYOffset > heightShow) {
-        console.log("jest 800");
         projektEven.forEach(even => {
             projektEven[0].style.right = "0";
         });
     }
     if (window.pageYOffset > heightShow * 2) {
-        console.log("jest 800");
         projektEven.forEach(even => {
             projektEven[1].style.right = "0";
         });
     }
     if (window.pageYOffset > heightShow * 3.5) {
-        console.log("jest 800");
         projektEven.forEach(even => {
             projektEven[2].style.right = "0";
         });
     }
     if (window.pageYOffset > heightShow + 250) {
-        console.log("jest 800");
         projektOdd.forEach(odd => {
             projektOdd[0].style.left = "0";
         });
     }
     if (window.pageYOffset > heightShow * 2.8) {
-        console.log("jest 800");
         projektOdd.forEach(odd => {
             projektOdd[1].style.left = "0";
         });
-    }
-    if (window.pageYOffset > heightShow * 3.7) {
-        console.log("jest 800");
+    } else if (window.pageYOffset > heightShow * 3.7) {
         projektOdd.forEach(odd => {
             projektOdd[2].style.left = "0";
         });

@@ -160,6 +160,14 @@ body {
     overflow: hidden;
 }
 
+a:nth-child(1) .imgProjekt {
+    background-image: url(img/Blog_Kulinarny.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+}
 
 
 .projektText {
